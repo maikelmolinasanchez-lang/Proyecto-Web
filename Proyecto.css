@@ -1,0 +1,472 @@
+/*
+Proyecto APWEB
+Miguel Angel Molina Sanchez
+20 de octubre 2025
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    width: 77%;
+    margin: 0 auto;
+    cursor: cell;
+}
+
+.Indice {
+    transition: all 0, 5 linear;
+    background-image: linear-gradient(to bottom, orange, black);
+}
+
+.Indice a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 15px;
+    transform: scale(0.9);
+}
+
+.Indice a:hover {
+    color: #ff7700
+}
+
+.FlexM {
+    display: flex;
+    justify-content: space-around;
+    width: 78.5%;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 10px;
+}
+
+.FlexM a {
+    text-decoration: none;
+    color: black;
+}
+
+.FlexM a:hover {
+    color: aqua;
+}
+
+article {
+    margin-top: 50px;
+    text-align: justify;
+    column-count: 4;
+    column-gap: 1em;
+    column-rule: 3px solid rgb(255, 94, 0);
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.article-ji>p::first-letter {
+    font-size: 2.5em;
+    color: orange;
+}
+
+.H1-Ini {
+    padding: 15px;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgb(245, 123, 0);
+}
+
+.Inicio {
+    background-color: #faf1cf;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.Inicio>p {
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+.Inicio>p::first-letter {
+    font-size: 1.7em;
+    color: rgb(137, 89, 0);
+}
+
+
+.Listas {
+    display: flex;
+    background-color: #faf1cf;
+    border-radius: 25px;
+    padding: 15px;
+    width: 78%;
+    margin: 0 auto;
+    cursor: grab;
+    box-shadow: -2rem -2rem 9rem black;
+}
+
+.lista-ordenada,
+.lista-desordenada {
+    width: 50%;
+}
+
+.lista-ordenada {
+    margin-left: 55px;
+}
+
+.section-sk {
+    background-color: #faf1cf;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    cursor: e-resize;
+    box-shadow: -2rem -2rem 9rem black;
+
+}
+
+.h2-sk {
+    text-align: center;
+    padding: 15px;
+}
+
+.menuG {
+    width: 90%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    padding: 20px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0 auto;
+    cursor: all-scroll;
+}
+
+.menuG a {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.menuG>a {
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.menuG img:hover {
+    transform: scale(0.9);
+}
+
+img {
+    transition: all 0.5s linear;
+}
+
+.section-video {
+    background-color: #faf1cf;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: -2rem -2rem 9rem black;
+}
+
+.section-video>h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+video {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: auto;
+    display: block;
+    padding: 15px;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Clips {
+    display: flex;
+}
+
+.h1-lñ {
+    text-align: center;
+    color: #000000;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+    background-color: #faf1cf;
+    border-radius: 25px;
+    width: 76%;
+    margin: 0 auto;
+    box-shadow: -2rem -2rem 9rem black;
+}
+
+label {
+    padding: 7px;
+}
+
+input {
+    padding: 7px;
+}
+
+.mapica {
+    text-align: center;
+}
+
+iframe {
+    margin: 0 auto;
+}
+
+.imagen {
+    width: 8%;
+    float: left;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+
+}
+
+.imagen2 {
+    width: 8%;
+    float: right;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+}
+
+
+.menuF {
+    display: flex;
+}
+
+.tablass>h2 {
+    padding: 5px;
+}
+
+.tablass {
+    background-color: #faf1cf;
+    border-radius: 25px;
+    text-align: center;
+    width: 77%;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: -2rem -2rem 9rem black;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+table {
+    margin: 20px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+}
+
+th {
+    background-color: #feeca7;
+    color: rgb(0, 0, 0);
+}
+
+th>img {
+    width: 50%;
+}
+
+
+td,
+th {
+    border: 2px solid rgb(126, 126, 126);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev{
+    left: 10px;
+    color: red;
+}
+
+.next{
+    right: 10px;
+    color: red;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media (width<= 768px) {
+    .section-sk {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    ul.FlexM {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    fieldset {
+        width: 76%;
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    #numero {
+        width: 100px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    table.responsive {
+        min-width: 420px;
+    }
+}
+
+/* Moviles */
+@media (width<=576px) {
+    .section-sk {
+        grid-template-columns: auto auto;
+    }
+
+    body {
+        padding: 12px;
+    }
+
+    fieldset {
+        width: 76%;
+        padding: 14px;
+        border-radius: 14px;
+    }
+
+    input,
+    textarea {
+        padding: 7px;
+        font-size: 15px;
+    }
+
+    .Indice a {
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+
+    table.responsive {
+        min-width: 360px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
